@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tienda de Ropa en Línea</title>
+    <link rel="stylesheet" href="../css/contacto.css"> 
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa en Línea</h1>
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">Inicio</a></li>
+                <li><a href="../html/productos.html">Catálogo</a></li>
+                <li><a href="../html/ofertas.html">Ofertas</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a href="../html/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta o comentario, por favor contáctanos.</p>
+        <form action="enviar.php" method="post"> <!-- Reemplaza "enviar.php" con el archivo de procesamiento real -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="#"><img src="../img/iconos/icon/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="../img/iconos/icon/whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://www.facebook.com/people/MTA-El-Portal-De-La-Moda/100090363232444/?mibextid=ZbWKwL"><img src="../img/iconos/icon/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="../img/iconos/icon/ubicacion.png" alt="Ubicación"></a>
+            <a href="#"><img src="../img/iconos/icon/horario.png" alt="Horario"></a>
+            <a href="#"><img src="../img/iconos/icon/telefono.png" alt="Teléfono"></a>
+        </div>
+        <p>&copy; El portal de la moda. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
